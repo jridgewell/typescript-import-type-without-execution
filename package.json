@@ -1,0 +1,16 @@
+{
+  "name": "typescript-import-type-without-execution",
+  "version": "1.0.0",
+  "description": "Demonstrates that TypeScript supports importing a type from an impure file without executing it",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --build tsconfig.json",
+    "pretest": "npm run build",
+    "test": "node dist/index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "3.9.7"
+  }
+}
