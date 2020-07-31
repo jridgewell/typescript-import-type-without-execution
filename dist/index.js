@@ -5,4 +5,4 @@ function test(first, second) {
     console.log(first);
     console.log(second);
 }
-test("TypeScript support `import type { Type } from 'path/file'` imports", "TypeScript support `import('path/file').Type` imports");
+test("TypeScript supports `import type { Type } from 'path/file'` imports", "TypeScript supports `import('path/file').Type` imports");

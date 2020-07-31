@@ -10,6 +10,6 @@ function test(
 }
 
 test(
-  "TypeScript support `import type { Type } from 'path/file'` imports",
-  "TypeScript support `import('path/file').Type` imports",
+  "TypeScript supports `import type { Type } from 'path/file'` imports",
+  "TypeScript supports `import('path/file').Type` imports",
 )
