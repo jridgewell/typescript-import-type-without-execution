@@ -10,7 +10,7 @@ https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-8.html#t
 
 ```ts
 // This will not execute any code from 'path/file'
-import type { Foo } from 'path/file';
+import type { Foo as Local } from 'path/file';
 ```
 
 2. `import('path/file').Type` syntax
@@ -19,5 +19,5 @@ https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-9.html#i
 
 ```ts
 // This will not execute any code from 'path/file'
-type Local = import('path/file').Type;
+type Local = import('path/file').Foo;
 ```
