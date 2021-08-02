@@ -2,7 +2,7 @@
 
 > Demonstrates that TypeScript supports importing a type from an impure file without executing it.
 
-TypeScript actually supports to forms of type-only importing:
+TypeScript actually supports two forms of type-only importing:
 
 1. `import type { Type } from 'path/file'` syntax
 
